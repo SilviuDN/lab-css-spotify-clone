@@ -1,0 +1,126 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+body{
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-size: 100% 45%;
+}
+
+#spotify-logo{
+    height: 2.5em;
+}
+
+.navbar{
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    padding: 0 1em;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-pic{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    padding: 50px;
+}
+
+h1.title{
+    font-size: 7em;
+}
+
+p.title{
+    font-size: 3em;
+    text-align: center;
+}
+
+.section-2{
+    text-align: center;
+}
+
+.tiles{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 100px;
+    height: auto;
+}
+
+.section-3{
+    background-color: green;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+column-2{
+    padding: 50px;
+}
+
+.white{
+    color: white;
+}
+
+.air{
+    padding: 20px 0;
+}
+
+.kw-image{
+    padding: 50px;
+}
+
+div.rebel{
+    position: relative;
+}
+
+img.rebel{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top:-800px;
+    left:45%;
+    /* z-index: 2; */
+    /* border: 1px solid black; */
+}
+
+.test{
+    color:aliceblue;
+}
